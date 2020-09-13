@@ -1,0 +1,12 @@
+#设置项目端口 server.port
+#设置项目路径 server.servlet.context-pat
+server:
+  port: 8082
+  servlet:
+    context-path: /crud
+
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
